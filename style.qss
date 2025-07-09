@@ -1,0 +1,37 @@
+/*  Root & Globals  */
+QWidget               { background:#1c1c1c; color:#e0e0e0;
+                        font-family:"Segoe UI",sans-serif; font-size:14px;}
+#TitleLabel           { color:#fff; font-weight:bold; background:transparent}
+#TitleButton          { background:transparent; border:none; color:#fff;
+                        font-size:14px; }
+#TitleButton:hover    { background:#555; }
+#PanelLabel           { color:#fff; font-weight:bold; padding:4px; }
+#SidePanel            { border:2px solid #7f5ffe; border-radius:7px; }
+#CenterPanel            { border:2px solid #7f5ffe; border-radius:7px; }
+
+/*  List widgets  */
+QListWidget           { background:transparent;}
+QListWidget::item     { padding:4px; border-radius:7px; }
+QListWidget::item:selected { background:#3da1ff; }
+
+/*  Buttons  */
+QPushButton           { background:#333; border:2px solid #6280fc;
+                        padding:6px 10px; color:#fff;  border-radius: 7px }
+QPushButton:hover     { background:#444; border:2px solid #666;  border-radius: 7px }
+QPushButton:disabled  { background:#222; border:2px solid #444; color:#666;  border-radius: 7px }
+
+/*  Progress bar  */
+QProgressBar          { border:2px solid #6280fc; text-align:center;  border-radius: 7px }
+QProgressBar::chunk   { background:#3b7ddd; }
+
+#MainFrame {
+    border: 2px solid #9b3bf3;
+    border-radius: 14px;
+    background-color: #1e1e1e;
+}
+
+/* Optional inner styling */
+#TitleBar {
+    background: transparent;  /* so it blends into MainFrame */
+    border-bottom: 1px;
+}
